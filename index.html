@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal House Of Glamour | Premium Salon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <!-- Replace the text logo with the actual image file -->
+            <a href="#home"><img src="logo.webp" alt="Royal House Of Glamour Logo" class="nav-logo"></a>
+            <h1 class="logo">RHG</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content fade-in">
+            <h1>Royal House Of Glamour</h1>
+            <p class="subtitle">Where Style Meets Elegance</p>
+            <div class="rating">
+                <span class="stars">★★★★★</span> 5.0 (12 Reviews)
+            </div>
+            <div class="hero-buttons">
+                <button id="heroWhatsapp" class="btn primary-btn pulse-button">Book Appointment</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding dark-bg">
+        <div class="container section-header reveal">
+            <h2>The Experience</h2>
+            <p>At Royel House Of Glamour, we believe everyone deserves to look and feel their best.</p>
+        </div>
+        <div class="container about-grid">
+            <div class="about-card reveal">
+                <h3>Our Vibe</h3>
+                <p>We are a proudly women-owned and LGBTQ+ friendly establishment. Step into a relaxing atmosphere where customer care is our top priority.</p>
+            </div>
+            <div class="about-card reveal" style="transition-delay: 0.1s;">
+                <h3>Amenities</h3>
+                <p>Enjoy complimentary beverages while you wait. We offer full on-site services equipped with assisted listening devices.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW SERVICES SECTION -->
+    <section id="services" class="section-padding black-bg">
+        <div class="container section-header reveal">
+            <h2>Our Services</h2>
+            <p>Premium Unisex Salon & Beauty Studio offerings.</p>
+        </div>
+        <div class="container services-grid">
+            <div class="service-box reveal">
+                <h3>Stylish Haircuts</h3>
+                <p>Precision cuts tailored to your unique style and face shape.</p>
+            </div>
+            <div class="service-box reveal" style="transition-delay: 0.1s;">
+                <h3>Professional Treatments</h3>
+                <p>Advanced hair treatments to restore health, shine, and volume.</p>
+            </div>
+            <div class="service-box reveal" style="transition-delay: 0.2s;">
+                <h3>Beauty & Grooming</h3>
+                <p>Comprehensive grooming services to keep you looking sharp and fresh.</p>
+            </div>
+            <div class="service-box reveal" style="transition-delay: 0.3s;">
+                <h3>Makeover Services</h3>
+                <p>Complete transformations for your most important events and occasions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section-padding dark-bg">
+        <div class="container section-header reveal">
+            <h2>Our Space</h2>
+            <p>Step inside our premium studio.</p>
+        </div>
+        <div class="container gallery-grid">
+            <div class="gallery-item reveal"><img src="parlour-front.webp" alt="Royal House Of Glamour Storefront"></div>
+            <div class="gallery-item reveal" style="transition-delay: 0.1s;"><img src="interior.webp" alt="Salon Interior"></div>
+        </div>
+    </section>
+
+    <section id="reviews" class="section-padding black-bg">
+        <div class="container section-header reveal">
+            <h2>Client Testimonials</h2>
+        </div>
+        <div class="container review-container">
+            <div class="review-box reveal">
+                <div class="review-header">
+                    <h4>Poulomi Sinha</h4>
+                    <span class="stars">★★★★★</span>
+                </div>
+                <p class="review-body">"Very good. Relaxing atmosphere."</p>
+            </div>
+            <div class="review-box reveal" style="transition-delay: 0.1s;">
+                <div class="review-header">
+                    <h4>Amanul Haque</h4>
+                    <span class="stars">★★★★★</span>
+                </div>
+                <p class="review-body">"Very soft and careful customer caring. Ayaan is aswam and cutting quality is ver appreciative..."</p>
+            </div>
+        </div>
+    </section>
+
+   <!-- Replace old contact and footer with this -->
+    <footer id="contact" class="footer-contact">
+        <div class="container footer-grid">
+            
+            <!-- Column 1: Brand Info -->
+            <div class="footer-col reveal">
+                <img src="logo.webp" alt="Royal House Of Glamour" class="footer-logo">
+                <p>Premium Unisex Salon & Beauty Studio, Where Style Meets Elegance!</p>
+            </div>
+            
+            <!-- Column 2: Contact Details -->
+            <div class="footer-col reveal" style="transition-delay: 0.1s;">
+                <h3 class="accent-heading">CONTACT US</h3>
+                <p><strong>Call / WhatsApp:</strong> +91 70702 02083</p>
+                <p><strong>Address:</strong> Universal Fitness Gym Building, 1st Floor, Near Regent Crown, Khagragorh, Bardhaman, West Bengal 713104</p>
+                <p><strong>Hours:</strong> Open daily, closes 10:30 PM</p>
+                <button id="whatsappBtn" class="btn primary-btn btn-small">Chat on WhatsApp</button>
+            </div>
+            
+            <!-- Column 3: Location Map -->
+            <div class="footer-col reveal" style="transition-delay: 0.2s;">
+                <h3 class="accent-heading">LOCATION</h3>
+                <div class="map-container">
+                    <!-- Standard Google Maps Embed -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.4339669562723!2d87.848881!3d23.250554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f835002b8d0001%3A0x6b1853d92200dc3!2sRoyal%20House%20Of%20Glamour!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="150" style="border:0; border-radius: 4px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <button id="directionsBtn" class="btn secondary-btn btn-small" style="width: 100%; margin-top: 15px;">Get Directions</button>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Royal House Of Glamour. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
