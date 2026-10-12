@@ -60,3 +60,23 @@ document.addEventListener('DOMContentLoaded', () => {
     if (contactWhatsapp) contactWhatsapp.addEventListener('click', triggerWhatsApp);
     if (directionsBtn) directionsBtn.addEventListener('click', triggerMaps);
 });
+// Mobile Hamburger Menu Logic
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    const navItems = document.querySelectorAll('.nav-links li a');
+
+    if (hamburger) {
+        hamburger.addEventListener('click', () => {
+            // Toggles the 'active' class on both the icon and the menu
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+    }
+
+    // Close the mobile menu automatically when a link is clicked
+    navItems.forEach(item => {
+        item.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navLinks.classList.remove('active');
+        });
+    });
